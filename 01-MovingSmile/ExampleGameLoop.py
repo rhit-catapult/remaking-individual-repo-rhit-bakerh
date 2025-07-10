@@ -7,7 +7,7 @@ import sys
 pygame.init()
 
 # Let's create a caption for the game window
-pygame.display.set_caption("Hello World")
+pygame.display.set_caption("308's Game")
 # TODO 00: Change the window caption to say your name.
 
 # Now the screen is where all the magic is going to happen. Our screen will
@@ -42,10 +42,17 @@ while True:
     # Draw things on the screen
 
     # TODO 02: Try to draw a circle (any size, any color, anywhere)
-    # pygame.draw.circle(screen, color, pos, radius, width(optional)  )
+    #pygame.draw.circle(screen, color, pos, radius, width(optional)  )
 
     # TODO 03: Try to draw a red circle in the middle of the screen with a radius 100
-    # pygame.draw.circle(screen, color, pos, radius, width(optional)  )
+    pygame.draw.circle(screen, pygame.Color("Blue"),  (107,99), 50, 5  )
+    pygame.draw.circle(screen, pygame.Color("gray"),  (224,99), 50, 5  )
+    pygame.draw.circle(screen, pygame.Color("red"),  (340,99), 50, 5  )
+    pygame.draw.circle(screen, pygame.Color("yellow"),  (162,149), 50, 5  )
+    pygame.draw.circle(screen, pygame.Color("green"),  (282,149), 50, 5  )
+
+
+
 
     # TODO 04: Try to draw a yellow circle with the center exactly in the lower left corner of the screen, radius 10
     # pygame.draw.circle(screen, color, pos, radius, width(optional)  )
